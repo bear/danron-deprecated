@@ -44,7 +44,8 @@ info:
 	@python --version
 
 ci: info clean coverage
-	CODECOV_TOKEN=`cat .codecov-token` codecov
+	codecov
+	@export REQUIRES_TOKEN=`cat .requires-token` && requires.io update-site -t ${REQUIRES_TOKEN} -r danron -n dev
 
 server:
 	python manage.py server

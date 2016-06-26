@@ -29,7 +29,6 @@ pip-log.txt
 
 # Unit test / coverage reports
 .coverage
-.codecov-token
 .tox
 nosetests.xml
 htmlcov
@@ -42,5 +41,9 @@ coverage.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# local tokens
+.codecov-token
+.requires-token
 
 violations.flake8.txt
