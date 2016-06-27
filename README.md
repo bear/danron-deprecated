@@ -24,3 +24,13 @@ All of the dependencies are outlined in a pip installable ```requirements.txt```
 dev mode - ```make server```
 
 uwsgi - ```make uwsgi```
+
+
+## Todo
+- allow micropub create
+- allow webmentions ala brid.gy publish
+ - scan sourceurl for a single chat/note
+ - scan sourceurl for all chat/notes, cache?
+- push
+- pubsubhubbub
+- superfeedr
