@@ -2,7 +2,11 @@
 [![Requirements Status](https://requires.io/github/bear/danron/requirements.svg?branch=master)](https://requires.io/github/bear/danron/requirements/?branch=master)
 [![codecov](https://codecov.io/gh/bear/danron/branch/master/graph/badge.svg)](https://codecov.io/gh/bear/danron)
 
+## About
 談論 - discussion
+
+- Japanese - danron
+- Chinese - tán lùn 谈论
 
 Danron is a Python Flask app designed to facilitate distributed [IndieWeb](https://indiewebcamp.com) Chat.
 
@@ -34,3 +38,6 @@ uwsgi - ```make uwsgi```
 - push
 - pubsubhubbub
 - superfeedr
+
+## Notes
+Thank you @attackgithub for [Issue 3](https://github.com/bear/danron/issues/3) and giving me the Chinese name
